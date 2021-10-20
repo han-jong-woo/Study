@@ -68,5 +68,17 @@ public class Studymap{
             System.out.println("test3 not exist");
         }
 
+        if(hm.containsValue(100)){ //value 100 not exist
+            System.out.println("value 100 exist");
+        }else{
+            System.out.println("value 100 not exist");
+        }
+
+        if(hm.containsValue(88)){ //value 88 exist
+            System.out.println("value 88 exist");
+        }else{
+            System.out.println("value 88 not exist");
+        }
+
     }
 }
