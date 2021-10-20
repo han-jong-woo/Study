@@ -4,7 +4,7 @@ public class Studymap{
     public static void main(String args[]){
         Map<String,Integer> hm = new HashMap<>();
 
-        hm.put("test1", 90);
+        hm.put("test1", 90); //값 넣기
         hm.put("test4", 88);
         hm.put("test3", 100);
         hm.put("test2", 70);
@@ -52,7 +52,7 @@ public class Studymap{
             //test2 70
         }
 
-        hm.remove("test3");
+        hm.remove("test3"); //key 삭제
 
         System.out.println(hm.toString()); //{test4=88, test2=70, test1=90}
 
