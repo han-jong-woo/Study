@@ -1,2 +1,2 @@
 # Study
-for study
+for Programming study
