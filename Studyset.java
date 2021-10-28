@@ -49,13 +49,6 @@ public class Studyset {
         for(Integer i : set2){ // 반복 값 출력 2 3 1 5 4 
             System.out.print(i+" "); 
         }
-
-        System.out.println();
-        Iterator<Integer> it = set2.iterator(); // 반복 값 출력 2 3 1 5 4 
-        while(it.hasNext()){
-            System.out.print(it.next()+" ");
-        }
-
     }
     
 }
