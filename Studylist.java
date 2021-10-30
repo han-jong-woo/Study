@@ -43,5 +43,20 @@ public class Studylist{
         System.out.println(list2.toString()); //[6,4]
         System.out.println();
 
+
+        List<Integer> list3 = new LinkedList<>();
+
+        list3.add(1);
+        list3.add(2);
+        list3.add(3);
+        list3.add(4);
+        list3.add(4);
+        list3.add(5);
+
+        System.out.println(list3.toString()); // 1,2,3,4,4,5
+        System.out.println(list3.indexOf(4)+" "+ list3.lastIndexOf(4)); // 3 4
+        System.out.println(list3.indexOf(6)); // -1
+
+
     }
 }
