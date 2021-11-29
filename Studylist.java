@@ -56,7 +56,5 @@ public class Studylist{
         System.out.println(list3.toString()); // 1,2,3,4,4,5
         System.out.println(list3.indexOf(4)+" "+ list3.lastIndexOf(4)); // 3 4
         System.out.println(list3.indexOf(6)); // -1
-
-
     }
 }
