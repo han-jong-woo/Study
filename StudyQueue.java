@@ -13,7 +13,7 @@ public class StudyQueue {
         System.out.println(queue.toString()); //[2]
         queue.remove(); // 제거 
 
-        System.out.println(queue.toString()); []
+        System.out.println(queue.toString()); // []
 
         System.out.println(queue.isEmpty()); // 비어있는지 체크  true
 
