@@ -18,7 +18,5 @@ public class StudyStack {
         System.out.println(stack.search(2)); // 인덱스 반환 //없으면 -1
         stack.clear(); // 전체 비우기 
         System.out.println(stack.toString()); // []
-        
-
     }
 }
