@@ -56,6 +56,28 @@ public class Studymap{
 
         System.out.println(hm.toString()); //{test4=88, test2=70, test1=90}
 
+        hm.put("test3",90);
+
+        System.out.println(hm.toString());
+
+        List<String> key = new ArrayList<>(hm.keySet()); //value 큰순서 + 값은 값일 경우 문자 순서 역순 
+        Collections.sort(key,new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if(hm.get(o2).compareTo(hm.get(o1))==0){
+                    return o2.compareTo(o1);
+                }else{
+                    return hm.get(o2).compareTo(hm.get(o1));
+                }
+            }
+            
+        });
+
+        for(int i=0; i<key.size(); i++){
+            System.out.println("key "+ key.get(i)+" value "+hm.get(key.get(i)));
+        }
+
+
         if(hm.containsKey("test4")){ //test4 exist
             System.out.println("test4 exist");
         }else{
